@@ -1,0 +1,25 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgrey;
+    flex-wrap: wrap;
+}
+.icon{
+    font-size: 40px;
+    padding: 10px;
+    color:blue;
+}
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-weight: bold;
+}

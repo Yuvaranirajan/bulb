@@ -23,7 +23,7 @@ export default class Bulb extends React.Component{
         return(
             <div className="container">
                  <div className="content">
-                  <h1> hello </h1>
+                  <h1> hello world </h1>
                  <button onClick={this.callOn}>ON</button>
                <img src={this.state.status ? bulboff:nature} width={300} height={300}/>
                <button onClick={this.callOff}>OFF</button>
